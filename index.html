@@ -1,39 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--soluton may not work, default must work-->
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jingyi Zhang's Personal Website</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8" />
+    <title>JINGYI ZHANG web page</title>
+    <style type="text/css">
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px; /* Adjust the gap between sections */
+        }
+
+        .section0 {
+            width: 100%;
+            height: 100px;
+            font-family: "Times New Roman";
+            font-size: large;
+            font-style: normal;
+            color: #121212fc;
+            background-color: #faf7ff;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .section1 {
+            width: 29%;
+            height: auto;
+            font-family: "Times New Roman";
+            font-size: large;
+            font-style: normal;
+            color: #FFFFFF;
+            background-color: #cab5ee;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .section2 {
+            width: 25%;
+            height: auto;
+            font-family: "Times New Roman";
+            font-size: x-large;
+            font-style: italic;
+            color: #2a18e8d0;
+            background-color: #ede462;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .section3 {
+            width: 50%;
+            height: auto;
+            font-family: "Times New Roman";
+            font-size: x-large;
+            font-style: italic;
+            color: #0d0e0d;
+            background-color: #8dd7e2;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .section4 {
+            width: 30%;
+            height: auto;
+            font-family: "Times New Roman";
+            font-size: large;
+            font-style: italic;
+            color: #2a18e8d0;
+            background-color: #edc3d065;
+            padding: 20px;
+            margin: 10px;
+        }
+    </style>
 </head>
+
 <body>
-  <header>
-    <h1>Welcome to Jingyi Zhang's Personal Website</h1>
-  </header>
-  
-  <main>
-    <section>
-      <h2>About Me</h2>
-      <p>Hello! I’m Jingyi Zhang, a software developer and data enthusiast. I enjoy building applications and learning about new technologies.</p>
-    </section>
 
-    <section>
-      <h2>Projects</h2>
-      <ul>
-        <li><a href="#">Project 1: Language Model</a></li>
-        <li><a href="#">Project 2: Portfolio Management</a></li>
-        <li><a href="#">Project 3: API Integration</a></li>
-      </ul>
-    </section>
+    <div class="flex-container">
+        <div class="section0">
+            <h1 style="text-align:center">
+                JINGYI (Alisia) ZHANG self website
+            </h1>
+        </div>
 
-    <section>
-      <h2>Contact</h2>
-      <p>You can reach me at: <a href="mailto:jyz0328@bu.edu">jyz0328@bu.edu</a></p>
-    </section>
-  </main>
-  
-  <footer>
-    <p>&copy; 2024 Jingyi Zhang</p>
-  </footer>
+        <div class="section1">
+            <p>
+                Hi this is JINGYI ZHANG, I am 24 years old and I come from Shanghai ,China.
+                I studied Elecrtrical and Computer Engineering in Feng Chia University in my first two bachelor years
+                and in Purdue University in my next three bachelor years. Then start from September 2023 I became a Master ECE
+                student in Boston University.
+
+            </p>
+        </div>
+        <div class="section2">
+            <p>
+                Jingyi Zhang  <br />
+                jyz0328@bu.edu <br />
+                7657469037  <br />
+                Click <a href="https://www.linkedin.com/in/jingyi-zhang-23a92a276/"> here</a> for my linkedin page<br />
+                Click <a href="https://github.com/jyz0328"> here</a> for my github
+            </p>
+        </div>
+        <div class="section1">
+            <p>
+                In my daily life, I form my own habits, I watch some videos about how to improve coding skills, and hike with
+                my friends each week. Besides, I made many friends ranging from country and race, I also attended many cultural
+                activities including Christmas, Halloween and Easter day. I also get interest in cooking and make some interesting
+                desserts in my free time.I really enjoy the culture and life in America.
+            </p>
+        </div>
+        <div class="section3">
+            <p>
+                <img src="photo.jpeg" alt="Jingyi Zhang" style="width:auto; height:auto;">
+                <img src="photo2.jpg" alt="Jingyi Zhang" style="width:auto; height:auto;">
+            </p>
+        </div>
+        <div class="section4">
+            <p>
+                For future, I hope to become a software engineer or data analyst, use my tech and communication
+                skill to build projects which can be useful for society. Through study and project designing experience,
+                I believe that I can be qualified for a software designer and engineer. Also, being employed does not mean
+                stop studying. I want to study more skills and make contribution to company during my working experience.
+            </p>
+        </div>
+    </div>
+
 </body>
 </html>
